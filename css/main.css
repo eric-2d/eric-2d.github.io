@@ -21,30 +21,37 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #44213c;
 }
 a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #e0a182;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     color: #e0a182;
 }
 
 footer {
+    margin-top: 100px;
     padding-top: 12px;
-    border-top: 1px solid #927979;
+    border-top: 1px solid #ccc;
     font-size: .8em;
+    margin-bottom: 50px;
 }
 
 ul.posts {
     margin: 20px auto 40px;
-    font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -53,35 +60,36 @@ ul.posts li {
     margin-left: auto;
 }
 
-.landing-page {
-    background-image: url('/images/blurbg.jpg');
-    height: 100vh;
+.sub-container {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.home-content {
-    height: calc(100vh - 200px);
-    width: 50%;
-    font-size: 1.3em;
-    color: #cacaca;
-    letter-spacing: 1px;
-    font-weight: 100;
+.quiet {
+    color: #ccc;
 }
 
-.centered-text {
-    position: relative;
-    top: 50%;
-    transform: perspective(1px) translateY(-50%);
+.post-date {
+   color: #ccc;
+   font-size:0.8em;
 }
 
-.bg-holder {
-    background-image: url('/images/outline-43.png');
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: right;
+.post-title a {
+    color:steelblue;
 }
 
-.home-footer {
-    text-align: center;
+.post {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 1.2em;
+   letter-spacing: 0.5px;
+}
+
+.continue-reading {
+   font-size:0.8em;
+}
+
+.continue-reading a {
+    color:steelblue;
 }
 
 

@@ -75,7 +75,8 @@ ul.posts li {
 }
 
 .post-title a {
-    color:steelblue;
+    color: steelblue;
+    font-size: 1.2em;
 }
 
 .post {

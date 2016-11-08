@@ -10,5 +10,7 @@ This gives it a very 'real' aspect both frightening and exciting.<br>
 At the moment various projects are in the pipe. They are being prioritized and the first selected one will undergo construction soon. Let's see where this adventure takes us!
 <br>
 <br>
-The founders @ clearpixel
+<p class="signature">
+  The founders @ clearpixel
+</p>
 

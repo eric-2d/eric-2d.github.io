@@ -67,7 +67,7 @@ ul.posts li {
 .home-content {
     height: calc(100vh - 200px);
     width: 50%;
-    color: white;
+    color: #c0ffee;
     font-size: 1.3em;
     letter-spacing: 1px;
     font-weight: 100;

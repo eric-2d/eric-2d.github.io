@@ -14,7 +14,7 @@ This gives it a very 'real' aspect both frightening and exciting.
 
 At the moment various projects are in the pipe. They are being prioritized and the first selected one will undergo construction soon.
 
-Let's make some cofee, get to work and see how far we can go!
+Let's make some coffee, get to work and see how far we can go!
 <br>
 <br>
 <p class="signature">

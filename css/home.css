@@ -90,5 +90,8 @@ ul.posts li {
     text-align: center;
 }
 
-
+.signature {
+  font-family: 'Kalam', cursive;
+  color: #999;
+}
 

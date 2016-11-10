@@ -87,6 +87,12 @@ ul.posts li {
    margin-bottom: 200px;
 }
 
+.post-preview {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 1.2em;
+   letter-spacing: 0.5px;
+}
+
 .continue-reading {
    font-size:0.8em;
 }

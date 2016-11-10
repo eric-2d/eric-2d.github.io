@@ -68,7 +68,6 @@ ul.posts li {
     height: calc(100vh - 200px);
     width: 50%;
     font-size: 1.3em;
-    color: #cacaca;
     letter-spacing: 1px;
     font-weight: 100;
 }

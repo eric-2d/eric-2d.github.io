@@ -4,7 +4,7 @@ title: "clearpixel's Quiet Birth"
 date: 2016-11-05
 ---
 <p style="text-align: center; font-size: 0.8em">
-    <img src="/images/001.jpg" align="bottom" style="border: thin solid #ccc; padding: 4px;"><br>
+    <img src="/images/001.jpg" align="bottom" style="border: thin solid #ccc; padding: 4px; width: 10%; height: 10%"><br>
     it's  a new day
 </p>
 

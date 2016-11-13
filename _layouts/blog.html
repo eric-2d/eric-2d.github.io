@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/blog.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400|Cormorant+Garamond:300|Josefin+Slab|Kalam:300" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    </head>
+    <body>
+        <nav>
+        <ul>
+            <li><a href="/">HOME</a></li>
+        </ul>
+        </nav>
+        {{ content }}
+        <footer>
+        <a href="mailto:contact@clearpixel.io">contact</a>
+        </footer>
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
+    </body>
+</html>
+

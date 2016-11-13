@@ -6,26 +6,28 @@
         <link rel="stylesheet" type="text/css" href="/css/animate.css">
         <link rel="stylesheet" type="text/css" href="/css/home.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400|Kalam:300" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     </head>
     <body>
-        <div class="landing-page">
-            <div class="container">
-                <nav>
-                <ul>
-                    <li><a href="/blog">BLOG</a></li>
-                </ul>
-                </nav>
-                <h1>clearpixel</h1>
-                <div class="bg-holder animated fadeIn">
-                    <div class="home-content">
-                        {{ content }}
-                    </div>
-                </div>
-                <footer class="home-footer">
-                clearpixel &copy; 2016 - <a href="mailto:contact@clearpixel.io">contact</a>
-                </footer>
+        <nav>
+        <ul>
+            <li><a href="/blog">BLOG</a></li>
+        </ul>
+        </nav>
+        <h1>clearpixel</h1>
+
+        <div class="main">
+            <div class="content animated fadeInLeft">
+                {{ content }}
+            </div>
+            <div class="pic animated fadeInRight">
+                <img src="/images/outline-43.png" alt="computers mobile and tablets applications">
             </div>
         </div>
+        <footer>
+          clearpixel &copy; 2016 - <a href="mailto:contact@clearpixel.io">contact</a>
+        </footer>
+
         {% if jekyll.environment == 'production' %}
         {% include analytics.html %}
         {% endif %}

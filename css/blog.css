@@ -1,21 +1,30 @@
 body {
     margin: 0;
+    padding: 10px;
     font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+@media only screen and (min-width : 736px) {
+    body {
+        font-size: 16px;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
     text-align: right;
     letter-spacing:1px;
+    font-size: 90%;
 }
 
-nav ul, footer ul {
+nav ul {
     padding: 0px;
     list-style: none;
     margin: 0;
 }
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -27,11 +36,25 @@ a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     color: sienna;
+    font-size: 140%;
 }
+
+@media only screen and (min-width : 736px) {
+    h1 {
+        font-size: 200%;
+    }
+}
+
+h2 {
+    color: sienna;
+    font-size: 110%;
+    -webkit-margin-after: 0;
+}
+
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
@@ -39,20 +62,23 @@ h3 {
 }
 
 footer {
-    margin-top: 100px;
-    padding-top: 12px;
+    padding-top: 10px;
     border-top: 1px solid #ccc;
     font-size: .8em;
-    margin-bottom: 50px;
+}
+
+ul {
+    -webkit-padding-start: 0;
+    list-style: none;
 }
 
 ul.posts {
-    margin: 20px auto 40px;
+    /*margin: 20px auto 40px;*/
 }
 
 ul.posts li {
     list-style: none;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .container {
@@ -62,8 +88,13 @@ ul.posts li {
 }
 
 .sub-container {
-    margin-left: 20%;
-    margin-right: 20%;
+}
+
+@media only screen and (min-width : 737px) {
+    .sub-container {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 .quiet {
@@ -75,16 +106,18 @@ ul.posts li {
    font-size:0.8em;
 }
 
-.post-title a {
-    color: steelblue;
-    font-size: 1.2em;
-}
 
 .post {
    font-family: 'Cormorant Garamond', serif;
-   font-size: 1.2em;
+   font-size: 115%;
    letter-spacing: 0.5px;
-   margin-bottom: 200px;
+}
+
+@media only screen and (min-width : 737px) {
+    .post {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 .post-preview {
@@ -94,7 +127,7 @@ ul.posts li {
 }
 
 .continue-reading {
-   font-size:0.8em;
+   font-size: 80%;
 }
 
 .continue-reading a {
@@ -104,6 +137,18 @@ ul.posts li {
 .signature {
   font-family: 'Kalam', cursive;
   color: #999;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    padding: 4px;
+    border: thin solid #ccc;
+    max-width: 600px;
+}
+
+#disqus_thread {
+    margin-top: 50px;
 }
 
 

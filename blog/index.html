@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: clearpixel | blog
 ---
 <h1>{{ page.title }}</h1>
@@ -8,10 +8,9 @@ title: clearpixel | blog
     <ul class="posts">
         {% for post in site.posts %}
         <li>
-
-        <span class="post-title">
+        <h2>
             <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </span><br>
+        </h2>
         <span class="post-date">{{ post.date | date_to_string }}</span>
         <div class="post-preview">
             {{ post.excerpt}}

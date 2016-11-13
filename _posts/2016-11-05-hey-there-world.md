@@ -5,7 +5,7 @@ date: 2016-11-05
 comments: false
 ---
 <p style="text-align: center; font-size: 0.8em">
-    <img src="/images/001.jpg" align="bottom" style="border: thin solid #ccc; padding: 4px; width: 40%; height: 40%"><br>
+    <img src="/images/001.jpg" align="bottom"><br>
     cheers to new beginnings
 </p>
 

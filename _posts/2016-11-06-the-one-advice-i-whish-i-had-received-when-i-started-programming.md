@@ -7,7 +7,7 @@ comments: true
 
 <p style="text-align: center; font-size: 0.8em">
     <img src="http://images.pcworld.com/images/article/2011/09/147939-ibmkey1-5221912.jpg" align="bottom"><br>
-    it all stars here
+    it all starts here
 </p>
 
 Learn how to type, touch type.

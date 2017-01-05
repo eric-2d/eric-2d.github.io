@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The One Advice I Wish I Had Received When I Started Programming"
+title: "The One Advice I Wish I Had Received When I Started Hacking"
 date: 2016-11-06
 comments: true
 ---

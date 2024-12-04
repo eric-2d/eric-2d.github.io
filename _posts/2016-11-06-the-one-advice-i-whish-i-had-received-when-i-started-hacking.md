@@ -100,9 +100,7 @@ As with all changes your brain is going to fight it at first but give it enough 
 </ul>
 
 <br>
-<span class="signature">
-Jeff, co-founder @ clearpixel
-</span>
+
 
 
 
